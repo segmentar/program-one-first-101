@@ -1,0 +1,10 @@
+
+	Flag
+
+	bit 1 has proof
+
+	bit 2 has signature
+
+	bit 3 has description
+
+	bit 4 writer encoding matches inner encoding

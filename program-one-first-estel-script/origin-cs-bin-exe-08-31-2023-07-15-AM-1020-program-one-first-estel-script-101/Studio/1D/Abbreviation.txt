@@ -1,0 +1,12 @@
+
+	DSNMG stands for:
+
+	Documentation
+
+	Specification
+
+	Notation
+
+	Manual
+
+	Guide

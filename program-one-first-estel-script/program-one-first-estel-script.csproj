@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C16ADD0-844F-4467-9980-63DC3CE3CD15}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>program_one_first_estel_script</RootNamespace>
+    <AssemblyName>program-one-first-estel-script</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\program-three-third-estel-script\bin\Ware\OneFirst\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\program-three-third-estel-script\bin\Ware\OneFirst\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\2D\Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="console-ae-x86-debug">
+      <HintPath>..\..\..\..\source\repos\console\bin\Debug\console-ae-x86-debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\04\Fourth\ProgramModuleFourth.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\04\Four\ProgramModuleFour.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Information\ProgramModuleInformation.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Container\NameValue\ProgramContainerNameValue.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Container\NameValue\Surface\ProgramContainerNameValueSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Part\NameValue\00\ProgramVoidNameValue.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Part\NameValue\01\ProgramVoidNameValueOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\2D\Architecture\Partition\Architecture.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Action\ProgramModuleAction.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Part\ConsoleSetup\03\ConsoleSetupThreeThird.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\2D\Specialize\GetFullExtension.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\2D\Specialize\SetWriterEncoding.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\2D\Specialize\SetReaderEncoding.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\2D\Specialize\SetStringCodec.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\CompressRaw\BasecfsCompressRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Compress\BasecfsCompress.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Link\Policy\BasecfsLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Measure\BasecfsMeasure.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Object\BaseCFSMeasure\BasecfsMeasureObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Object\BaseCFSObect\BasecfsObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Prototype\BasecfsPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Simple\Partition\BasecfsSimple.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Type\Make\Default\BasecfsMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Type\Make\Default\Surface\BasecfsMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Type\Sequence\BasecfsSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Type\Sequence\Debug\BasecfsSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Basecfs.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Type\Set\Default\BasecfsSetDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Type\Set\Default\Surface\BasecfsSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Type\Void\BasecfsVoidProcess.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Format\FormBaseStringFormat.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Container\FormBaseContainerPeriod.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Container\Surface\FormBaseContainerPeriodSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Forge\ForgeHeaderString.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Set\Surface\FormBaseSetEscapeCharacterSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Set\FormBaseSetEscapeCharacter.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\ProofGroup\FormAddress\FormAddress.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\CompressRaw\FormBaseCompressRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Compress\FormBaseCompress.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\FormBase.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Link\Policy\FormBaseLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Object\FormBaseObject\FormBaseObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Prototype\FormBasePrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Forge\ForgeContent.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Forge\ForgeHeaderArray.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Make\Default\FormBaseMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Make\Default\Surface\FormBaseMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Sequence\Debug\FormBaseSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Type\Sequence\FormBaseSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\ProofGroup\FormBody\FormBody.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\ProofGroup\FormHeader\FormHeader.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\CompressRaw\FormLineCompressRaw.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Compress\FormLineCompress.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\FormLine.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Link\Policy\FormLine.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Object\FormLineObject\FormLineObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Prototype\FormLinePrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Forge\ForgeSafeString.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Make\Default\FormLineMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Make\Default\Surface\FormLineMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Sequence\Debug\FormLineSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Sequence\FormLineSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Set\GlobalLine\FormLineSetGlobalLine.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Set\GlobalLine\Surface\FormLineSetGlobalLineSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Data\FormData.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Form.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Link\Constant\FormLinkConstant.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Link\Policy\FormLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Measure\FormMeasure.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Object\FormDataObject\FormDataObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Object\FormMeasureObject\FormMeasureObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Object\FormObject\FormObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Object\FormRuntimeObject\FormRuntimeObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Prototype\FormPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Runtime\FormRuntime.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadAddressProof\00\FormReadAddressProofZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadAddressProof\01\FormReadAddressProofOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadAddressProof\02\FormReadAddressProofTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadAddressProof\03\FormReadAddressProofThreeThird.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadBodyProof\00\FormReadBodyProofZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadBodyProof\01\FormReadBodyProofOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadBodyProof\02\FormReadBodyProofTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadBodyProof\03\FormReadBodyProofThreeThird.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteAddress\00\WriteAddressZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteAddress\01\WriteAddressOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteAddress\02\WriteAddressTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteHeaderBodyAddresss\00\WriteHeaderBodyAddressZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteHeaderBodyAddresss\01\WriteHeaderBodyAddressOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteHeaderBodyAddresss\02\WriteHeaderBodyAddressTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteHeader\00\WriteHeaderZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteHeader\01\WriteHeaderOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteHeader\02\WriteHeaderTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteBody\02\WriteBodyTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteBody\00\WriteBodyZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteBody\01\WriteBodyOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Forge\ForgeAddressTuple.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Forge\ForgeLengthTuple.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadHeaderProof\00\FormReadHeaderProofZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadHeaderProof\01\FormReadHeaderProofOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadHeaderProof\02\FormReadHeaderProofTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\ReadHeaderProof\03\FormReadHeaderProofThreeThird.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteFile\00\FormWriteFileZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteProof\00\FormWriteProofZeroTen.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Part\WriteProof\01\FormWriteProofOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Public\Proof\Proof.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Public\Render\Render.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Forge\ForgeSeekPosition.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Make\Default\FormMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Make\Default\Surface\FormMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Sequence\Debug\FormSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Sequence\FormSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Set\Default\FormSetDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Set\Default\Surface\FormSetDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Set\LocalLine\FormLineSetLocalLine.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Type\Set\LocalLine\Surface\FormLineSetLocalLineSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Set\Filename\FormSetFilename.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Set\Filename\Surface\FormSetFilenameSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Type\Void\FormVoidRenderFormArray.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Data\ProgramData.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Link\Default\Partition\ProgramLinkDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Link\Policy\ProgramLinkPolicy.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Default\ProgramModuleDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\01\First\ProgramModuleFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\01\One\ProgramModuleOne.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\02\Second\ProgramModuleSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\02\Two\ProgramModuleTwo.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\03\Third\ProgramModuleThree.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\Function\03\Three\ProgramModuleThird.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Module\ProgramModule.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Object\ProgramDataObject\ProgramDataObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Object\ProgramObject\ProgramObject.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Program.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Prototype\ProgramPrototype.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Static\ProgramStatic.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Part\ConsoleSetup\00\ConsoleSetup.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Part\ConsoleSetup\01\ConsoleSetupOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Part\ConsoleSetup\02\ConsoleSetupTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Make\Default\ProgramMakeDefault.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Make\Default\Surface\ProgramMakeDefaultSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Private\ConsoleDescriptor\ConsoleDescriptor.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Sequence\Debug\ProgramSequenceDebug.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Type\Sequence\ProgramSequence.cs" />
+    <Compile Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\2D\Icon.ico" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\1D\Abbreviation.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\1D\Notation.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\1D\ReservedFlag.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\CFSGroup\BaseCFS\Meta\BaseCFSMeta.txt" />
+    <None Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormBase\Meta\FormBaseMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\FormLine\Meta\FormLineMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\4D\FormGroup\Form\Meta\FormMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Program\Meta\ProgramMeta.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\ReadMe.txt" />
+    <Content Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\1D\Document.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="origin-cs-bin-exe-08-31-2023-07-15-AM-1020-program-one-first-estel-script-101\Studio\3D\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

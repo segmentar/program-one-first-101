@@ -1,0 +1,18 @@
+sequence FormBase : no unused namespace(s), meta, type, link
+
+	>Compress
+	<<FormBaseCompress.cs
+
+	>CompressRaw
+	<<FormBaseCompressRaw.cs
+
+	>Object
+	>>FormBaseObject
+	<<<FormBaseObject.cs
+
+	>Prototype
+	<<FormBasePrototype.cs
+	
+	<FormBase.cs
+
+end sequence

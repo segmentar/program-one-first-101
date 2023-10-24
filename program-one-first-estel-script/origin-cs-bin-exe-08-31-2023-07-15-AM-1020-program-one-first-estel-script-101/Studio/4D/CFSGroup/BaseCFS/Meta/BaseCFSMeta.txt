@@ -1,0 +1,19 @@
+sequence BaseCFS : meta, type, link
+
+	>Compress
+	<<BasecfsCompress.cs
+
+	>CompressRaw
+	<<BasecfsCompressRaw.cs
+
+	>Object
+	<<BasecfsObject.cs
+
+	>BasecfsPrototype
+	<<BasecfsPrototype.cs
+
+	/measure\MEASURE/BasecfsMeasure.cs\
+
+	/simple\SIMPLE/BasecfsSimple.cs\
+
+end sequence

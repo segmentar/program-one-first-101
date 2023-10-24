@@ -1,0 +1,74 @@
+	
+	This is notation .
+
+	LOOP
+
+	`safe` means attemp to surface in .
+
+	`match` means attemp to dive in .
+
+	'once' means first iteration of a loop .
+
+	`item_STRING` used interchangeably within looops
+
+	`entry_STRING` used interchangeably within looops
+
+	`entity_STRING` used to pin point codec table conversion
+
+	`stringItem` used interchangeably within looops
+
+	`stringEntry` used interchangeably within looops
+
+	`stringEntity` used to pin point codec table conversion
+
+	`i`, `j`, `k`, `l`, `m`, `n`, `o`, `x`
+
+	BOOLEAN
+
+	'check' indicates boolean inline .
+
+	'answer' indicates boolean argument .
+
+	`safe` indicates boolean loop out .
+
+	`match` indicates boolean loop in .
+
+	`contagious` indicates boolean subtractive .
+
+	`contagent` indicates boolean reusage .
+
+	COUNTER 
+
+	`zeroth` means counter that starts with minus one .
+
+	`indexer` means counter that starts with zero .
+
+	`ordinal` means counter that starts with one .
+
+	COUNTING
+
+	`roth` means self minus one .
+
+	`eoth` means placement of self minus one .
+
+	`oth` means placement of zero .
+	
+	`aoth` means length .
+
+	'zee' means next of self .
+
+	'zeeth' means placement of next of self .
+
+	PATH
+
+	path_NAME_file
+
+	path_NAME_directory
+
+	path_FILE_filename
+
+	path_FILE_filename_with_extension
+
+	path_DIRECTORY_full_name
+
+	
